@@ -1,0 +1,359 @@
+2026-05-08T18:12:02.321-05:00  INFO 16220 --- [estudiantes] [main] c.m.estudiantes.EstudiantesApplication   : Starting EstudiantesApplication using Java 17.0.9 with PID 16220 (C:\Users\Usuario\Documents\PROGRAMACIÓN EN LA NUBE\microservicios\estudiantes\bin\main started by Usuario in C:\Users\Usuario\Documents\PROGRAMACIÓN EN LA NUBE\microservicios)
+2026-05-08T18:12:02.343-05:00 DEBUG 16220 --- [estudiantes] [main] c.m.estudiantes.EstudiantesApplication   : Running with Spring Boot v4.0.6, Spring v7.0.7
+2026-05-08T18:12:02.361-05:00  INFO 16220 --- [estudiantes] [main] c.m.estudiantes.EstudiantesApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-05-08T18:12:07.835-05:00  INFO 16220 --- [estudiantes] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-08T18:12:08.150-05:00  INFO 16220 --- [estudiantes] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 285 ms. Found 1 JPA repository interface.
+2026-05-08T18:12:08.668-05:00  INFO 16220 --- [estudiantes] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=f1e5b18c-7394-3265-990f-bebe810ff6f4
+2026-05-08T18:12:09.436-05:00  INFO 16220 --- [estudiantes] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-05-08T18:12:09.461-05:00  INFO 16220 --- [estudiantes] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-08T18:12:09.462-05:00  INFO 16220 --- [estudiantes] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-05-08T18:12:09.581-05:00  INFO 16220 --- [estudiantes] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 7011 ms
+2026-05-08T18:12:09.926-05:00  INFO 16220 --- [estudiantes] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-05-08T18:12:10.105-05:00  INFO 16220 --- [estudiantes] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-05-08T18:12:11.297-05:00  INFO 16220 --- [estudiantes] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-08T18:12:11.379-05:00  INFO 16220 --- [estudiantes] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-05-08T18:12:11.653-05:00  INFO 16220 --- [estudiantes] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3a13f663
+2026-05-08T18:12:11.656-05:00  INFO 16220 --- [estudiantes] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-05-08T18:12:11.792-05:00  INFO 16220 --- [estudiantes] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/estudiantes_db]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 14.2
+	Default catalog/schema: estudiantes_db/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-08T18:12:13.597-05:00  INFO 16220 --- [estudiantes] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-08T18:12:13.693-05:00  INFO 16220 --- [estudiantes] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-08T18:12:13.830-05:00  INFO 16220 --- [estudiantes] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-05-08T18:12:14.080-05:00  WARN 16220 --- [estudiantes] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-08T18:12:14.602-05:00 DEBUG 16220 --- [estudiantes] [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 8 mappings in 'requestMappingHandlerMapping'
+2026-05-08T18:12:14.666-05:00 DEBUG 16220 --- [estudiantes] [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2026-05-08T18:12:14.745-05:00 DEBUG 16220 --- [estudiantes] [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 2 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-05-08T18:12:14.841-05:00 DEBUG 16220 --- [estudiantes] [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-05-08T18:12:15.378-05:00  INFO 16220 --- [estudiantes] [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestClient.
+2026-05-08T18:12:15.470-05:00  WARN 16220 --- [estudiantes] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2026-05-08T18:12:15.517-05:00  INFO 16220 --- [estudiantes] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2026-05-08T18:12:15.578-05:00  INFO 16220 --- [estudiantes] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2026-05-08T18:12:15.586-05:00  INFO 16220 --- [estudiantes] [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-05-08T18:12:15.608-05:00  INFO 16220 --- [estudiantes] [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2026-05-08T18:12:15.609-05:00  INFO 16220 --- [estudiantes] [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2026-05-08T18:12:15.613-05:00  INFO 16220 --- [estudiantes] [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2026-05-08T18:12:15.614-05:00  INFO 16220 --- [estudiantes] [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2026-05-08T18:12:15.616-05:00  INFO 16220 --- [estudiantes] [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2026-05-08T18:12:15.617-05:00  INFO 16220 --- [estudiantes] [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2026-05-08T18:12:15.617-05:00  INFO 16220 --- [estudiantes] [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2026-05-08T18:12:16.364-05:00 DEBUG 16220 --- [estudiantes] [main] o.s.web.client.DefaultRestClient         : Reading to [com.netflix.discovery.shared.Applications]
+2026-05-08T18:12:16.420-05:00  INFO 16220 --- [estudiantes] [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2026-05-08T18:12:16.425-05:00  INFO 16220 --- [estudiantes] [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2026-05-08T18:12:16.431-05:00  INFO 16220 --- [estudiantes] [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2026-05-08T18:12:16.436-05:00  INFO 16220 --- [estudiantes] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1778281936435 with initial instances count: 1
+2026-05-08T18:12:16.447-05:00  INFO 16220 --- [estudiantes] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application ESTUDIANTES with eureka with status UP
+2026-05-08T18:12:16.450-05:00  INFO 16220 --- [estudiantes] [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1778281936450, current=UP, previous=STARTING]
+2026-05-08T18:12:16.457-05:00  INFO 16220 --- [estudiantes] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ESTUDIANTES/DESKTOP-AISCPRQ:estudiantes:8081: registering service...
+2026-05-08T18:12:16.537-05:00 DEBUG 16220 --- [estudiantes] [DiscoveryClient-InstanceInfoReplicator-%d] o.s.web.client.DefaultRestClient         : Writing [InstanceInfo [instanceId = DESKTOP-AISCPRQ:estudiantes:8081, appName = ESTUDIANTES, hostName = DESKTOP-AISCPRQ, status = UP, ipAddr = 192.168.18.9, port = 8081, securePort = 443, dataCenterInfo = com.netflix.appinfo.MyDataCenterInfo@38f2342b] as "application/json" with org.springframework.http.converter.json.MappingJackson2HttpMessageConverter
+2026-05-08T18:12:16.558-05:00  INFO 16220 --- [estudiantes] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/'
+2026-05-08T18:12:16.573-05:00  INFO 16220 --- [estudiantes] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8081
+2026-05-08T18:12:16.584-05:00  INFO 16220 --- [estudiantes] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ESTUDIANTES/DESKTOP-AISCPRQ:estudiantes:8081 - registration status: 204
+2026-05-08T18:12:16.707-05:00  INFO 16220 --- [estudiantes] [main] c.m.estudiantes.EstudiantesApplication   : Started EstudiantesApplication in 15.631 seconds (process running for 16.73)
+2026-05-08T18:12:47.381-05:00 DEBUG 16220 --- [estudiantes] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.DefaultRestClient         : Reading to [com.netflix.discovery.shared.Applications]
+2026-05-08T18:13:17.437-05:00 DEBUG 16220 --- [estudiantes] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.DefaultRestClient         : Reading to [com.netflix.discovery.shared.Applications]
+2026-05-08T18:13:47.459-05:00 DEBUG 16220 --- [estudiantes] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.DefaultRestClient         : Reading to [com.netflix.discovery.shared.Applications]
+2026-05-08T18:14:12.174-05:00  INFO 16220 --- [estudiantes] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-08T18:14:12.179-05:00  INFO 16220 --- [estudiantes] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-05-08T18:14:12.187-05:00 DEBUG 16220 --- [estudiantes] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2026-05-08T18:14:12.189-05:00 DEBUG 16220 --- [estudiantes] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2026-05-08T18:14:12.190-05:00 DEBUG 16220 --- [estudiantes] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@7715d43c
+2026-05-08T18:14:12.190-05:00 DEBUG 16220 --- [estudiantes] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@599fab92
+2026-05-08T18:14:12.190-05:00 DEBUG 16220 --- [estudiantes] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2026-05-08T18:14:12.205-05:00  INFO 16220 --- [estudiantes] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2026-05-08T18:14:13.201-05:00 DEBUG 16220 --- [estudiantes] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/api/estudiantes?page=0&size=10&sort=nombre", parameters={masked}
+2026-05-08T18:14:14.327-05:00 DEBUG 16220 --- [estudiantes] [http-nio-8081-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.microservicio.estudiantes.EstudianteController#getAllEstudiantes(Pageable)
+2026-05-08T18:14:20.219-05:00 DEBUG 16220 --- [estudiantes] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.DefaultRestClient         : Reading to [com.netflix.discovery.shared.Applications]
+2026-05-08T18:14:45.461-05:00 DEBUG 16220 --- [estudiantes] [http-nio-8081-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2026-05-08T18:14:45.479-05:00 DEBUG 16220 --- [estudiantes] [http-nio-8081-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Page 1 of 1 containing com.microservicio.estudiantes.dto.EstudianteDTO instances]
+2026-05-08T18:14:45.739-05:00  WARN 16220 --- [estudiantes] [http-nio-8081-exec-1] ration$PageModule$WarningLoggingModifier : Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2026-05-08T18:14:45.884-05:00 DEBUG 16220 --- [estudiantes] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-05-08T18:14:50.252-05:00 DEBUG 16220 --- [estudiantes] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.DefaultRestClient         : Reading to [com.netflix.discovery.shared.Applications]
+2026-05-08T18:15:20.286-05:00 DEBUG 16220 --- [estudiantes] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.DefaultRestClient         : Reading to [com.netflix.discovery.shared.Applications]
+2026-05-08T18:15:50.351-05:00 DEBUG 16220 --- [estudiantes] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.DefaultRestClient         : Reading to [com.netflix.discovery.shared.Applications]
+2026-05-08T18:16:20.401-05:00 DEBUG 16220 --- [estudiantes] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.DefaultRestClient         : Reading to [com.netflix.discovery.shared.Applications]
+2026-05-08T18:16:25.327-05:00 DEBUG 16220 --- [estudiantes] [http-nio-8081-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/api/estudiantes/22", parameters={}
+2026-05-08T18:16:25.331-05:00 DEBUG 16220 --- [estudiantes] [http-nio-8081-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.microservicio.estudiantes.EstudianteController#getEstudianteById(Long)
+2026-05-08T18:16:25.386-05:00 DEBUG 16220 --- [estudiantes] [http-nio-8081-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2026-05-08T18:16:25.387-05:00 DEBUG 16220 --- [estudiantes] [http-nio-8081-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Nothing to write: null body
+2026-05-08T18:16:25.387-05:00 DEBUG 16220 --- [estudiantes] [http-nio-8081-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2026-05-08T18:16:28.189-05:00 DEBUG 16220 --- [estudiantes] [http-nio-8081-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/api/estudiantes/22", parameters={}
+2026-05-08T18:16:28.190-05:00 DEBUG 16220 --- [estudiantes] [http-nio-8081-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.microservicio.estudiantes.EstudianteController#getEstudianteById(Long)
+2026-05-08T18:16:28.195-05:00 DEBUG 16220 --- [estudiantes] [http-nio-8081-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2026-05-08T18:16:28.195-05:00 DEBUG 16220 --- [estudiantes] [http-nio-8081-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Nothing to write: null body
+2026-05-08T18:16:28.197-05:00 DEBUG 16220 --- [estudiantes] [http-nio-8081-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2026-05-08T18:16:50.429-05:00 DEBUG 16220 --- [estudiantes] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.DefaultRestClient         : Reading to [com.netflix.discovery.shared.Applications]
+2026-05-08T18:17:15.416-05:00 DEBUG 16220 --- [estudiantes] [http-nio-8081-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/api/estudiantes/22", parameters={}
+2026-05-08T18:17:15.416-05:00 DEBUG 16220 --- [estudiantes] [http-nio-8081-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.microservicio.estudiantes.EstudianteController#getEstudianteById(Long)
+2026-05-08T18:17:15.419-05:00 DEBUG 16220 --- [estudiantes] [http-nio-8081-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2026-05-08T18:17:15.420-05:00 DEBUG 16220 --- [estudiantes] [http-nio-8081-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Nothing to write: null body
+2026-05-08T18:17:15.421-05:00 DEBUG 16220 --- [estudiantes] [http-nio-8081-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2026-05-08T18:17:15.674-05:00  INFO 16220 --- [estudiantes] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-05-08T18:17:20.460-05:00 DEBUG 16220 --- [estudiantes] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.DefaultRestClient         : Reading to [com.netflix.discovery.shared.Applications]
+2026-05-08T18:17:50.495-05:00 DEBUG 16220 --- [estudiantes] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.DefaultRestClient         : Reading to [com.netflix.discovery.shared.Applications]
+2026-05-08T18:30:11.662-05:00  INFO 24632 --- [estudiantes] [main] c.m.estudiantes.EstudiantesApplication   : Starting EstudiantesApplication using Java 17.0.9 with PID 24632 (C:\Users\Usuario\Documents\PROGRAMACIÓN EN LA NUBE\microservicios\estudiantes\bin\main started by Usuario in C:\Users\Usuario\Documents\PROGRAMACIÓN EN LA NUBE\microservicios)
+2026-05-08T18:30:11.686-05:00 DEBUG 24632 --- [estudiantes] [main] c.m.estudiantes.EstudiantesApplication   : Running with Spring Boot v4.0.6, Spring v7.0.7
+2026-05-08T18:30:11.700-05:00  INFO 24632 --- [estudiantes] [main] c.m.estudiantes.EstudiantesApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-05-08T18:30:13.629-05:00  INFO 24632 --- [estudiantes] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-08T18:30:13.972-05:00  INFO 24632 --- [estudiantes] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 319 ms. Found 1 JPA repository interface.
+2026-05-08T18:30:14.427-05:00  INFO 24632 --- [estudiantes] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=f1e5b18c-7394-3265-990f-bebe810ff6f4
+2026-05-08T18:30:15.943-05:00  INFO 24632 --- [estudiantes] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-05-08T18:30:16.035-05:00  INFO 24632 --- [estudiantes] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-08T18:30:16.037-05:00  INFO 24632 --- [estudiantes] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-05-08T18:30:16.456-05:00  INFO 24632 --- [estudiantes] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 4635 ms
+2026-05-08T18:30:16.882-05:00  INFO 24632 --- [estudiantes] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-05-08T18:30:17.125-05:00  INFO 24632 --- [estudiantes] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-05-08T18:30:18.865-05:00  INFO 24632 --- [estudiantes] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-08T18:30:19.003-05:00  INFO 24632 --- [estudiantes] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-05-08T18:30:19.655-05:00  INFO 24632 --- [estudiantes] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5100c143
+2026-05-08T18:30:19.665-05:00  INFO 24632 --- [estudiantes] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-05-08T18:30:19.856-05:00  INFO 24632 --- [estudiantes] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/estudiantes_db]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 14.2
+	Default catalog/schema: estudiantes_db/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-08T18:30:24.001-05:00  INFO 24632 --- [estudiantes] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-08T18:30:24.165-05:00  INFO 24632 --- [estudiantes] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-08T18:30:24.346-05:00  INFO 24632 --- [estudiantes] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-05-08T18:30:24.744-05:00  WARN 24632 --- [estudiantes] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-08T18:30:26.342-05:00 DEBUG 24632 --- [estudiantes] [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 8 mappings in 'requestMappingHandlerMapping'
+2026-05-08T18:30:26.700-05:00 DEBUG 24632 --- [estudiantes] [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2026-05-08T18:30:26.786-05:00 DEBUG 24632 --- [estudiantes] [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 2 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-05-08T18:30:26.935-05:00 DEBUG 24632 --- [estudiantes] [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-05-08T18:30:28.930-05:00  INFO 24632 --- [estudiantes] [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestClient.
+2026-05-08T18:30:29.036-05:00  WARN 24632 --- [estudiantes] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2026-05-08T18:30:29.099-05:00  INFO 24632 --- [estudiantes] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2026-05-08T18:30:29.188-05:00  INFO 24632 --- [estudiantes] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2026-05-08T18:30:29.204-05:00  INFO 24632 --- [estudiantes] [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-05-08T18:30:29.265-05:00  INFO 24632 --- [estudiantes] [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2026-05-08T18:30:29.270-05:00  INFO 24632 --- [estudiantes] [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2026-05-08T18:30:29.278-05:00  INFO 24632 --- [estudiantes] [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2026-05-08T18:30:29.279-05:00  INFO 24632 --- [estudiantes] [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2026-05-08T18:30:29.280-05:00  INFO 24632 --- [estudiantes] [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2026-05-08T18:30:29.281-05:00  INFO 24632 --- [estudiantes] [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2026-05-08T18:30:29.282-05:00  INFO 24632 --- [estudiantes] [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2026-05-08T18:30:30.917-05:00 DEBUG 24632 --- [estudiantes] [main] o.s.web.client.DefaultRestClient         : Reading to [com.netflix.discovery.shared.Applications]
+2026-05-08T18:30:31.050-05:00  INFO 24632 --- [estudiantes] [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2026-05-08T18:30:31.056-05:00  INFO 24632 --- [estudiantes] [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2026-05-08T18:30:31.061-05:00  INFO 24632 --- [estudiantes] [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2026-05-08T18:30:31.066-05:00  INFO 24632 --- [estudiantes] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1778283031063 with initial instances count: 2
+2026-05-08T18:30:31.077-05:00  INFO 24632 --- [estudiantes] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application ESTUDIANTES with eureka with status UP
+2026-05-08T18:30:31.084-05:00  INFO 24632 --- [estudiantes] [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1778283031084, current=UP, previous=STARTING]
+2026-05-08T18:30:31.091-05:00  INFO 24632 --- [estudiantes] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ESTUDIANTES/DESKTOP-AISCPRQ:estudiantes:8081: registering service...
+2026-05-08T18:30:31.151-05:00 DEBUG 24632 --- [estudiantes] [DiscoveryClient-InstanceInfoReplicator-%d] o.s.web.client.DefaultRestClient         : Writing [InstanceInfo [instanceId = DESKTOP-AISCPRQ:estudiantes:8081, appName = ESTUDIANTES, hostName = DESKTOP-AISCPRQ, status = UP, ipAddr = 192.168.18.9, port = 8081, securePort = 443, dataCenterInfo = com.netflix.appinfo.MyDataCenterInfo@31e5d408] as "application/json" with org.springframework.http.converter.json.MappingJackson2HttpMessageConverter
+2026-05-08T18:30:31.216-05:00  INFO 24632 --- [estudiantes] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/'
+2026-05-08T18:30:31.229-05:00  INFO 24632 --- [estudiantes] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8081
+2026-05-08T18:30:31.253-05:00  INFO 24632 --- [estudiantes] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ESTUDIANTES/DESKTOP-AISCPRQ:estudiantes:8081 - registration status: 204
+2026-05-08T18:30:31.591-05:00  INFO 24632 --- [estudiantes] [main] c.m.estudiantes.EstudiantesApplication   : Started EstudiantesApplication in 21.458 seconds (process running for 22.684)
+2026-05-08T18:31:01.088-05:00 DEBUG 24632 --- [estudiantes] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.DefaultRestClient         : Reading to [com.netflix.discovery.shared.Applications]
+2026-05-08T18:31:31.125-05:00 DEBUG 24632 --- [estudiantes] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.DefaultRestClient         : Reading to [com.netflix.discovery.shared.Applications]
+2026-05-08T18:32:01.146-05:00 DEBUG 24632 --- [estudiantes] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.DefaultRestClient         : Reading to [com.netflix.discovery.shared.Applications]
+2026-05-08T18:32:05.043-05:00  INFO 24632 --- [estudiantes] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-08T18:32:05.045-05:00  INFO 24632 --- [estudiantes] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-05-08T18:32:05.046-05:00 DEBUG 24632 --- [estudiantes] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2026-05-08T18:32:05.047-05:00 DEBUG 24632 --- [estudiantes] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2026-05-08T18:32:05.050-05:00 DEBUG 24632 --- [estudiantes] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@59e67a18
+2026-05-08T18:32:05.052-05:00 DEBUG 24632 --- [estudiantes] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@4e2ad1f2
+2026-05-08T18:32:05.060-05:00 DEBUG 24632 --- [estudiantes] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2026-05-08T18:32:05.063-05:00  INFO 24632 --- [estudiantes] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 17 ms
+2026-05-08T18:32:05.080-05:00 DEBUG 24632 --- [estudiantes] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/api/estudiantes?page=0&size=10&sort=nombre", parameters={masked}
+2026-05-08T18:32:05.096-05:00 DEBUG 24632 --- [estudiantes] [http-nio-8081-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.microservicio.estudiantes.EstudianteController#getAllEstudiantes(Pageable)
+2026-05-08T18:32:05.667-05:00 DEBUG 24632 --- [estudiantes] [http-nio-8081-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2026-05-08T18:32:05.676-05:00 DEBUG 24632 --- [estudiantes] [http-nio-8081-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Page 1 of 1 containing com.microservicio.estudiantes.dto.EstudianteDTO instances]
+2026-05-08T18:32:05.801-05:00  WARN 24632 --- [estudiantes] [http-nio-8081-exec-1] ration$PageModule$WarningLoggingModifier : Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2026-05-08T18:32:05.879-05:00 DEBUG 24632 --- [estudiantes] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-05-08T18:32:11.461-05:00 DEBUG 24632 --- [estudiantes] [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/api/estudiantes/22", parameters={}
+2026-05-08T18:32:11.462-05:00 DEBUG 24632 --- [estudiantes] [http-nio-8081-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.microservicio.estudiantes.EstudianteController#getEstudianteById(Long)
+2026-05-08T18:32:11.494-05:00 DEBUG 24632 --- [estudiantes] [http-nio-8081-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2026-05-08T18:32:11.495-05:00 DEBUG 24632 --- [estudiantes] [http-nio-8081-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Nothing to write: null body
+2026-05-08T18:32:11.496-05:00 DEBUG 24632 --- [estudiantes] [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2026-05-08T18:32:19.904-05:00 DEBUG 24632 --- [estudiantes] [http-nio-8081-exec-4] o.s.web.servlet.DispatcherServlet        : PUT "/api/estudiantes/11", parameters={}
+2026-05-08T18:32:19.923-05:00 DEBUG 24632 --- [estudiantes] [http-nio-8081-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.microservicio.estudiantes.EstudianteController#updateEstudiante(Long, EstudianteRequestDTO)
+2026-05-08T18:32:20.014-05:00 DEBUG 24632 --- [estudiantes] [http-nio-8081-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [EstudianteRequestDTO(nombre=Juan Pérez, email=juan@example.com, edad=25, carrera=Ingeniería Informát (truncated)...]
+2026-05-08T18:32:20.103-05:00 DEBUG 24632 --- [estudiantes] [http-nio-8081-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2026-05-08T18:32:20.104-05:00 DEBUG 24632 --- [estudiantes] [http-nio-8081-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [EstudianteDTO(id=11, nombre=Juan Pérez, email=juan@example.com, edad=25, carrera=Ingeniería Informát (truncated)...]
+2026-05-08T18:32:20.109-05:00 DEBUG 24632 --- [estudiantes] [http-nio-8081-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-05-08T18:32:25.615-05:00 DEBUG 24632 --- [estudiantes] [http-nio-8081-exec-5] o.s.web.servlet.DispatcherServlet        : PATCH "/api/estudiantes/11", parameters={}
+2026-05-08T18:32:25.617-05:00 DEBUG 24632 --- [estudiantes] [http-nio-8081-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.microservicio.estudiantes.EstudianteController#patchEstudiante(Long, EstudiantePatchDTO)
+2026-05-08T18:32:25.629-05:00 DEBUG 24632 --- [estudiantes] [http-nio-8081-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [EstudiantePatchDTO(nombre=Juan Pérez, email=juan@example.com, edad=25, carrera=Ingeniería Informátic (truncated)...]
+2026-05-08T18:32:25.639-05:00 DEBUG 24632 --- [estudiantes] [http-nio-8081-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2026-05-08T18:32:25.642-05:00 DEBUG 24632 --- [estudiantes] [http-nio-8081-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [EstudianteDTO(id=11, nombre=Juan Pérez, email=juan@example.com, edad=25, carrera=Ingeniería Informát (truncated)...]
+2026-05-08T18:32:25.644-05:00 DEBUG 24632 --- [estudiantes] [http-nio-8081-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-05-08T18:32:31.182-05:00 DEBUG 24632 --- [estudiantes] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.DefaultRestClient         : Reading to [com.netflix.discovery.shared.Applications]
+2026-05-08T18:33:01.208-05:00 DEBUG 24632 --- [estudiantes] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.DefaultRestClient         : Reading to [com.netflix.discovery.shared.Applications]
+2026-05-08T18:33:31.236-05:00 DEBUG 24632 --- [estudiantes] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.DefaultRestClient         : Reading to [com.netflix.discovery.shared.Applications]
+2026-05-08T18:34:01.268-05:00 DEBUG 24632 --- [estudiantes] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.DefaultRestClient         : Reading to [com.netflix.discovery.shared.Applications]
+2026-05-08T18:34:01.821-05:00 DEBUG 24632 --- [estudiantes] [http-nio-8081-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/api/estudiantes/3", parameters={}
+2026-05-08T18:34:01.822-05:00 DEBUG 24632 --- [estudiantes] [http-nio-8081-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.microservicio.estudiantes.EstudianteController#getEstudianteById(Long)
+2026-05-08T18:34:01.827-05:00 DEBUG 24632 --- [estudiantes] [http-nio-8081-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2026-05-08T18:34:01.827-05:00 DEBUG 24632 --- [estudiantes] [http-nio-8081-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [EstudianteDTO(id=3, nombre=Test, email=test@email.com, edad=25, carrera=Test)]
+2026-05-08T18:34:01.832-05:00 DEBUG 24632 --- [estudiantes] [http-nio-8081-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-05-08T18:34:08.526-05:00 DEBUG 24632 --- [estudiantes] [http-nio-8081-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/api/estudiantes?page=0&size=10&sort=nombre", parameters={masked}
+2026-05-08T18:34:08.536-05:00 DEBUG 24632 --- [estudiantes] [http-nio-8081-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.microservicio.estudiantes.EstudianteController#getAllEstudiantes(Pageable)
+2026-05-08T18:34:08.555-05:00 DEBUG 24632 --- [estudiantes] [http-nio-8081-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2026-05-08T18:34:08.557-05:00 DEBUG 24632 --- [estudiantes] [http-nio-8081-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Page 1 of 1 containing com.microservicio.estudiantes.dto.EstudianteDTO instances]
+2026-05-08T18:34:08.560-05:00 DEBUG 24632 --- [estudiantes] [http-nio-8081-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-05-08T18:34:31.290-05:00 DEBUG 24632 --- [estudiantes] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.DefaultRestClient         : Reading to [com.netflix.discovery.shared.Applications]
+2026-05-08T18:35:01.313-05:00 DEBUG 24632 --- [estudiantes] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.DefaultRestClient         : Reading to [com.netflix.discovery.shared.Applications]
+2026-05-08T18:35:29.293-05:00  INFO 24632 --- [estudiantes] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-05-08T18:35:31.340-05:00 DEBUG 24632 --- [estudiantes] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.DefaultRestClient         : Reading to [com.netflix.discovery.shared.Applications]
+2026-05-08T18:36:01.364-05:00 DEBUG 24632 --- [estudiantes] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.DefaultRestClient         : Reading to [com.netflix.discovery.shared.Applications]
+2026-05-08T18:36:31.389-05:00 DEBUG 24632 --- [estudiantes] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.DefaultRestClient         : Reading to [com.netflix.discovery.shared.Applications]
+2026-05-08T18:37:01.422-05:00 DEBUG 24632 --- [estudiantes] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.DefaultRestClient         : Reading to [com.netflix.discovery.shared.Applications]
+2026-05-08T18:37:31.446-05:00 DEBUG 24632 --- [estudiantes] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.DefaultRestClient         : Reading to [com.netflix.discovery.shared.Applications]
+2026-05-08T18:38:01.491-05:00 DEBUG 24632 --- [estudiantes] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.DefaultRestClient         : Reading to [com.netflix.discovery.shared.Applications]
+2026-05-08T18:38:31.541-05:00 DEBUG 24632 --- [estudiantes] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.DefaultRestClient         : Reading to [com.netflix.discovery.shared.Applications]
+2026-05-08T18:39:01.559-05:00 DEBUG 24632 --- [estudiantes] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.DefaultRestClient         : Reading to [com.netflix.discovery.shared.Applications]
+2026-05-08T18:39:31.594-05:00 DEBUG 24632 --- [estudiantes] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.DefaultRestClient         : Reading to [com.netflix.discovery.shared.Applications]
+2026-05-08T18:40:01.621-05:00 DEBUG 24632 --- [estudiantes] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.DefaultRestClient         : Reading to [com.netflix.discovery.shared.Applications]
+2026-05-08T18:40:29.302-05:00  INFO 24632 --- [estudiantes] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-05-08T18:40:31.742-05:00 DEBUG 24632 --- [estudiantes] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.DefaultRestClient         : Reading to [com.netflix.discovery.shared.Applications]
+2026-05-08T18:41:01.778-05:00 DEBUG 24632 --- [estudiantes] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.DefaultRestClient         : Reading to [com.netflix.discovery.shared.Applications]
+2026-05-08T18:41:31.803-05:00 DEBUG 24632 --- [estudiantes] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.DefaultRestClient         : Reading to [com.netflix.discovery.shared.Applications]
+2026-05-08T18:42:01.827-05:00 DEBUG 24632 --- [estudiantes] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.DefaultRestClient         : Reading to [com.netflix.discovery.shared.Applications]
+2026-05-08T18:42:31.862-05:00 DEBUG 24632 --- [estudiantes] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.DefaultRestClient         : Reading to [com.netflix.discovery.shared.Applications]
+2026-05-08T18:43:01.890-05:00 DEBUG 24632 --- [estudiantes] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.DefaultRestClient         : Reading to [com.netflix.discovery.shared.Applications]
+2026-05-08T18:43:31.913-05:00 DEBUG 24632 --- [estudiantes] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.DefaultRestClient         : Reading to [com.netflix.discovery.shared.Applications]
+2026-05-08T18:44:01.945-05:00 DEBUG 24632 --- [estudiantes] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.DefaultRestClient         : Reading to [com.netflix.discovery.shared.Applications]
+2026-05-08T18:44:31.979-05:00 DEBUG 24632 --- [estudiantes] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.DefaultRestClient         : Reading to [com.netflix.discovery.shared.Applications]
+2026-05-08T18:45:02.002-05:00 DEBUG 24632 --- [estudiantes] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.DefaultRestClient         : Reading to [com.netflix.discovery.shared.Applications]
+2026-05-08T18:45:29.315-05:00  INFO 24632 --- [estudiantes] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-05-08T18:45:32.032-05:00 DEBUG 24632 --- [estudiantes] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.DefaultRestClient         : Reading to [com.netflix.discovery.shared.Applications]
+2026-05-08T18:46:02.065-05:00 DEBUG 24632 --- [estudiantes] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.DefaultRestClient         : Reading to [com.netflix.discovery.shared.Applications]
+2026-05-08T18:46:32.091-05:00 DEBUG 24632 --- [estudiantes] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.DefaultRestClient         : Reading to [com.netflix.discovery.shared.Applications]
+2026-05-08T18:47:02.112-05:00 DEBUG 24632 --- [estudiantes] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.DefaultRestClient         : Reading to [com.netflix.discovery.shared.Applications]
+2026-05-08T18:47:32.144-05:00 DEBUG 24632 --- [estudiantes] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.DefaultRestClient         : Reading to [com.netflix.discovery.shared.Applications]
+2026-05-08T18:48:02.176-05:00 DEBUG 24632 --- [estudiantes] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.DefaultRestClient         : Reading to [com.netflix.discovery.shared.Applications]
+2026-05-08T18:48:32.214-05:00 DEBUG 24632 --- [estudiantes] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.DefaultRestClient         : Reading to [com.netflix.discovery.shared.Applications]
+2026-05-08T18:49:02.245-05:00 DEBUG 24632 --- [estudiantes] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.DefaultRestClient         : Reading to [com.netflix.discovery.shared.Applications]
+2026-05-08T18:49:32.269-05:00 DEBUG 24632 --- [estudiantes] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.DefaultRestClient         : Reading to [com.netflix.discovery.shared.Applications]
+2026-05-08T18:50:02.296-05:00 DEBUG 24632 --- [estudiantes] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.DefaultRestClient         : Reading to [com.netflix.discovery.shared.Applications]
+2026-05-08T18:50:29.317-05:00  INFO 24632 --- [estudiantes] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-05-08T18:50:32.328-05:00 DEBUG 24632 --- [estudiantes] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.DefaultRestClient         : Reading to [com.netflix.discovery.shared.Applications]
+2026-05-08T18:51:02.364-05:00 DEBUG 24632 --- [estudiantes] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.DefaultRestClient         : Reading to [com.netflix.discovery.shared.Applications]
+2026-05-08T18:51:32.394-05:00 DEBUG 24632 --- [estudiantes] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.DefaultRestClient         : Reading to [com.netflix.discovery.shared.Applications]
+2026-05-08T18:52:02.428-05:00 DEBUG 24632 --- [estudiantes] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.DefaultRestClient         : Reading to [com.netflix.discovery.shared.Applications]
+2026-05-08T18:52:32.467-05:00 DEBUG 24632 --- [estudiantes] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.DefaultRestClient         : Reading to [com.netflix.discovery.shared.Applications]
+2026-05-08T18:53:02.492-05:00 DEBUG 24632 --- [estudiantes] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.DefaultRestClient         : Reading to [com.netflix.discovery.shared.Applications]
+2026-05-08T18:53:32.527-05:00 DEBUG 24632 --- [estudiantes] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.DefaultRestClient         : Reading to [com.netflix.discovery.shared.Applications]
+2026-05-08T18:54:02.552-05:00 DEBUG 24632 --- [estudiantes] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.DefaultRestClient         : Reading to [com.netflix.discovery.shared.Applications]
+2026-05-08T18:54:32.578-05:00 DEBUG 24632 --- [estudiantes] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.DefaultRestClient         : Reading to [com.netflix.discovery.shared.Applications]
+2026-05-08T18:55:02.611-05:00 DEBUG 24632 --- [estudiantes] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.DefaultRestClient         : Reading to [com.netflix.discovery.shared.Applications]
+2026-05-08T18:55:29.327-05:00  INFO 24632 --- [estudiantes] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-05-08T18:55:32.635-05:00 DEBUG 24632 --- [estudiantes] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.DefaultRestClient         : Reading to [com.netflix.discovery.shared.Applications]
+2026-05-08T18:56:02.656-05:00 DEBUG 24632 --- [estudiantes] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.DefaultRestClient         : Reading to [com.netflix.discovery.shared.Applications]
+2026-05-08T18:56:32.688-05:00 DEBUG 24632 --- [estudiantes] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.DefaultRestClient         : Reading to [com.netflix.discovery.shared.Applications]
+2026-05-08T18:57:02.718-05:00 DEBUG 24632 --- [estudiantes] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.DefaultRestClient         : Reading to [com.netflix.discovery.shared.Applications]
+2026-05-08T18:57:21.455-05:00 DEBUG 24632 --- [estudiantes] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/api/estudiantes?page=0&size=10&sort=nombre", parameters={masked}
+2026-05-08T18:57:21.465-05:00 DEBUG 24632 --- [estudiantes] [http-nio-8081-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.microservicio.estudiantes.EstudianteController#getAllEstudiantes(Pageable)
+2026-05-08T18:57:21.683-05:00 DEBUG 24632 --- [estudiantes] [http-nio-8081-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2026-05-08T18:57:21.684-05:00 DEBUG 24632 --- [estudiantes] [http-nio-8081-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Page 1 of 1 containing com.microservicio.estudiantes.dto.EstudianteDTO instances]
+2026-05-08T18:57:21.705-05:00 DEBUG 24632 --- [estudiantes] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-05-08T18:57:32.777-05:00 DEBUG 24632 --- [estudiantes] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.DefaultRestClient         : Reading to [com.netflix.discovery.shared.Applications]
+2026-05-08T18:58:00.221-05:00 DEBUG 24632 --- [estudiantes] [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/api/estudiantes/3", parameters={}
+2026-05-08T18:58:00.225-05:00 DEBUG 24632 --- [estudiantes] [http-nio-8081-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.microservicio.estudiantes.EstudianteController#getEstudianteById(Long)
+2026-05-08T18:58:00.242-05:00 DEBUG 24632 --- [estudiantes] [http-nio-8081-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2026-05-08T18:58:00.243-05:00 DEBUG 24632 --- [estudiantes] [http-nio-8081-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [EstudianteDTO(id=3, nombre=Test, email=test@email.com, edad=25, carrera=Test)]
+2026-05-08T18:58:00.250-05:00 DEBUG 24632 --- [estudiantes] [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-05-08T18:58:02.811-05:00 DEBUG 24632 --- [estudiantes] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.DefaultRestClient         : Reading to [com.netflix.discovery.shared.Applications]
+2026-05-08T18:58:32.406-05:00 DEBUG 24632 --- [estudiantes] [http-nio-8081-exec-4] o.s.web.servlet.DispatcherServlet        : POST "/api/estudiantes", parameters={}
+2026-05-08T18:58:32.407-05:00 DEBUG 24632 --- [estudiantes] [http-nio-8081-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.microservicio.estudiantes.EstudianteController#createEstudiante(EstudianteRequestDTO)
+2026-05-08T18:58:32.441-05:00 DEBUG 24632 --- [estudiantes] [http-nio-8081-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [EstudianteRequestDTO(nombre=Ismael Andrade, email=iandrade@gmail.com, edad=22, carrera=Ingeniería So (truncated)...]
+2026-05-08T18:58:32.805-05:00 DEBUG 24632 --- [estudiantes] [http-nio-8081-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2026-05-08T18:58:32.819-05:00 DEBUG 24632 --- [estudiantes] [http-nio-8081-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [EstudianteDTO(id=13, nombre=Ismael Andrade, email=iandrade@gmail.com, edad=22, carrera=Ingeniería So (truncated)...]
+2026-05-08T18:58:32.821-05:00 DEBUG 24632 --- [estudiantes] [http-nio-8081-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 201 CREATED
+2026-05-08T18:58:32.841-05:00 DEBUG 24632 --- [estudiantes] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.DefaultRestClient         : Reading to [com.netflix.discovery.shared.Applications]
+2026-05-08T18:58:40.354-05:00 DEBUG 24632 --- [estudiantes] [http-nio-8081-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/api/estudiantes/13", parameters={}
+2026-05-08T18:58:40.357-05:00 DEBUG 24632 --- [estudiantes] [http-nio-8081-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.microservicio.estudiantes.EstudianteController#getEstudianteById(Long)
+2026-05-08T18:58:40.371-05:00 DEBUG 24632 --- [estudiantes] [http-nio-8081-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2026-05-08T18:58:40.372-05:00 DEBUG 24632 --- [estudiantes] [http-nio-8081-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [EstudianteDTO(id=13, nombre=Ismael Andrade, email=iandrade@gmail.com, edad=22, carrera=Ingeniería So (truncated)...]
+2026-05-08T18:58:40.377-05:00 DEBUG 24632 --- [estudiantes] [http-nio-8081-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-05-08T18:59:02.912-05:00 DEBUG 24632 --- [estudiantes] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.DefaultRestClient         : Reading to [com.netflix.discovery.shared.Applications]
+2026-05-08T18:59:15.706-05:00 DEBUG 24632 --- [estudiantes] [http-nio-8081-exec-6] o.s.web.servlet.DispatcherServlet        : PUT "/api/estudiantes/13", parameters={}
+2026-05-08T18:59:15.734-05:00 DEBUG 24632 --- [estudiantes] [http-nio-8081-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.microservicio.estudiantes.EstudianteController#updateEstudiante(Long, EstudianteRequestDTO)
+2026-05-08T18:59:15.746-05:00 DEBUG 24632 --- [estudiantes] [http-nio-8081-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [EstudianteRequestDTO(nombre=Jhonny Andrade, email=johnnyandrade@example.com, edad=25, carrera=Ingeni (truncated)...]
+2026-05-08T18:59:15.882-05:00 DEBUG 24632 --- [estudiantes] [http-nio-8081-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2026-05-08T18:59:15.897-05:00 DEBUG 24632 --- [estudiantes] [http-nio-8081-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [EstudianteDTO(id=13, nombre=Jhonny Andrade, email=johnnyandrade@example.com, edad=25, carrera=Ingeni (truncated)...]
+2026-05-08T18:59:15.898-05:00 DEBUG 24632 --- [estudiantes] [http-nio-8081-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-05-08T18:59:20.569-05:00 DEBUG 24632 --- [estudiantes] [http-nio-8081-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/api/estudiantes/13", parameters={}
+2026-05-08T18:59:20.570-05:00 DEBUG 24632 --- [estudiantes] [http-nio-8081-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.microservicio.estudiantes.EstudianteController#getEstudianteById(Long)
+2026-05-08T18:59:20.578-05:00 DEBUG 24632 --- [estudiantes] [http-nio-8081-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2026-05-08T18:59:20.579-05:00 DEBUG 24632 --- [estudiantes] [http-nio-8081-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [EstudianteDTO(id=13, nombre=Jhonny Andrade, email=johnnyandrade@example.com, edad=25, carrera=Ingeni (truncated)...]
+2026-05-08T18:59:20.583-05:00 DEBUG 24632 --- [estudiantes] [http-nio-8081-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-05-08T18:59:32.944-05:00 DEBUG 24632 --- [estudiantes] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.DefaultRestClient         : Reading to [com.netflix.discovery.shared.Applications]
+2026-05-08T18:59:42.114-05:00 DEBUG 24632 --- [estudiantes] [http-nio-8081-exec-8] o.s.web.servlet.DispatcherServlet        : PATCH "/api/estudiantes/11", parameters={}
+2026-05-08T18:59:42.115-05:00 DEBUG 24632 --- [estudiantes] [http-nio-8081-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.microservicio.estudiantes.EstudianteController#patchEstudiante(Long, EstudiantePatchDTO)
+2026-05-08T18:59:42.119-05:00 DEBUG 24632 --- [estudiantes] [http-nio-8081-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [EstudiantePatchDTO(nombre=null, email=null, edad=null, carrera=Ingeniería en Software)]
+2026-05-08T18:59:42.130-05:00 DEBUG 24632 --- [estudiantes] [http-nio-8081-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2026-05-08T18:59:42.131-05:00 DEBUG 24632 --- [estudiantes] [http-nio-8081-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [EstudianteDTO(id=11, nombre=Juan Pérez, email=juan@example.com, edad=25, carrera=Ingeniería en Softw (truncated)...]
+2026-05-08T18:59:42.132-05:00 DEBUG 24632 --- [estudiantes] [http-nio-8081-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-05-08T18:59:48.316-05:00 DEBUG 24632 --- [estudiantes] [http-nio-8081-exec-9] o.s.web.servlet.DispatcherServlet        : PATCH "/api/estudiantes/13", parameters={}
+2026-05-08T18:59:48.316-05:00 DEBUG 24632 --- [estudiantes] [http-nio-8081-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.microservicio.estudiantes.EstudianteController#patchEstudiante(Long, EstudiantePatchDTO)
+2026-05-08T18:59:48.324-05:00 DEBUG 24632 --- [estudiantes] [http-nio-8081-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [EstudiantePatchDTO(nombre=null, email=null, edad=null, carrera=Ingeniería en Software)]
+2026-05-08T18:59:48.344-05:00 DEBUG 24632 --- [estudiantes] [http-nio-8081-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2026-05-08T18:59:48.345-05:00 DEBUG 24632 --- [estudiantes] [http-nio-8081-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [EstudianteDTO(id=13, nombre=Jhonny Andrade, email=johnnyandrade@example.com, edad=25, carrera=Ingeni (truncated)...]
+2026-05-08T18:59:48.353-05:00 DEBUG 24632 --- [estudiantes] [http-nio-8081-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-05-08T18:59:52.803-05:00 DEBUG 24632 --- [estudiantes] [http-nio-8081-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/api/estudiantes/13", parameters={}
+2026-05-08T18:59:52.804-05:00 DEBUG 24632 --- [estudiantes] [http-nio-8081-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.microservicio.estudiantes.EstudianteController#getEstudianteById(Long)
+2026-05-08T18:59:52.810-05:00 DEBUG 24632 --- [estudiantes] [http-nio-8081-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2026-05-08T18:59:52.810-05:00 DEBUG 24632 --- [estudiantes] [http-nio-8081-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [EstudianteDTO(id=13, nombre=Jhonny Andrade, email=johnnyandrade@example.com, edad=25, carrera=Ingeni (truncated)...]
+2026-05-08T18:59:52.812-05:00 DEBUG 24632 --- [estudiantes] [http-nio-8081-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-05-08T19:00:02.979-05:00 DEBUG 24632 --- [estudiantes] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.DefaultRestClient         : Reading to [com.netflix.discovery.shared.Applications]
+2026-05-08T19:00:04.497-05:00 DEBUG 24632 --- [estudiantes] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : DELETE "/api/estudiantes/13", parameters={}
+2026-05-08T19:00:04.498-05:00 DEBUG 24632 --- [estudiantes] [http-nio-8081-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.microservicio.estudiantes.EstudianteController#deleteEstudiante(Long)
+2026-05-08T19:00:04.665-05:00 DEBUG 24632 --- [estudiantes] [http-nio-8081-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2026-05-08T19:00:04.665-05:00 DEBUG 24632 --- [estudiantes] [http-nio-8081-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Nothing to write: null body
+2026-05-08T19:00:04.669-05:00 DEBUG 24632 --- [estudiantes] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 204 NO_CONTENT
+2026-05-08T19:00:10.829-05:00 DEBUG 24632 --- [estudiantes] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/api/estudiantes?page=0&size=10&sort=nombre", parameters={masked}
+2026-05-08T19:00:10.832-05:00 DEBUG 24632 --- [estudiantes] [http-nio-8081-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.microservicio.estudiantes.EstudianteController#getAllEstudiantes(Pageable)
+2026-05-08T19:00:10.873-05:00 DEBUG 24632 --- [estudiantes] [http-nio-8081-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2026-05-08T19:00:10.875-05:00 DEBUG 24632 --- [estudiantes] [http-nio-8081-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Page 1 of 1 containing com.microservicio.estudiantes.dto.EstudianteDTO instances]
+2026-05-08T19:00:10.879-05:00 DEBUG 24632 --- [estudiantes] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-05-08T19:00:29.341-05:00  INFO 24632 --- [estudiantes] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-05-08T19:00:33.003-05:00 DEBUG 24632 --- [estudiantes] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.DefaultRestClient         : Reading to [com.netflix.discovery.shared.Applications]
+2026-05-08T19:01:03.026-05:00 DEBUG 24632 --- [estudiantes] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.DefaultRestClient         : Reading to [com.netflix.discovery.shared.Applications]
+2026-05-08T19:01:33.049-05:00 DEBUG 24632 --- [estudiantes] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.DefaultRestClient         : Reading to [com.netflix.discovery.shared.Applications]
+2026-05-08T19:02:03.129-05:00 DEBUG 24632 --- [estudiantes] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.DefaultRestClient         : Reading to [com.netflix.discovery.shared.Applications]
+2026-05-08T19:02:33.204-05:00 DEBUG 24632 --- [estudiantes] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.DefaultRestClient         : Reading to [com.netflix.discovery.shared.Applications]
+2026-05-08T19:03:03.263-05:00 DEBUG 24632 --- [estudiantes] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.DefaultRestClient         : Reading to [com.netflix.discovery.shared.Applications]
+2026-05-08T19:03:33.298-05:00 DEBUG 24632 --- [estudiantes] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.DefaultRestClient         : Reading to [com.netflix.discovery.shared.Applications]
+2026-05-08T19:04:03.321-05:00 DEBUG 24632 --- [estudiantes] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.DefaultRestClient         : Reading to [com.netflix.discovery.shared.Applications]
+2026-05-08T19:04:33.346-05:00 DEBUG 24632 --- [estudiantes] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.DefaultRestClient         : Reading to [com.netflix.discovery.shared.Applications]
+2026-05-08T19:05:03.367-05:00 DEBUG 24632 --- [estudiantes] [DiscoveryClient-CacheRefreshExecutor-%d] o.s.web.client.DefaultRestClient         : Reading to [com.netflix.discovery.shared.Applications]
+2026-05-08T19:05:29.348-05:00  INFO 24632 --- [estudiantes] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-05-08T19:05:29.988-05:00  INFO 24632 --- [estudiantes] [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application ESTUDIANTES with eureka with status DOWN
+2026-05-08T19:05:29.988-05:00  INFO 24632 --- [estudiantes] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1778285129988, current=DOWN, previous=UP]
+2026-05-08T19:05:29.988-05:00  INFO 24632 --- [estudiantes] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ESTUDIANTES/DESKTOP-AISCPRQ:estudiantes:8081: registering service...
+2026-05-08T19:05:30.004-05:00 DEBUG 24632 --- [estudiantes] [DiscoveryClient-InstanceInfoReplicator-%d] o.s.web.client.DefaultRestClient         : Writing [InstanceInfo [instanceId = DESKTOP-AISCPRQ:estudiantes:8081, appName = ESTUDIANTES, hostName = DESKTOP-AISCPRQ, status = DOWN, ipAddr = 192.168.18.9, port = 8081, securePort = 443, dataCenterInfo = com.netflix.appinfo.MyDataCenterInfo@31e5d408] as "application/json" with org.springframework.http.converter.json.MappingJackson2HttpMessageConverter
+2026-05-08T19:05:30.032-05:00  INFO 24632 --- [estudiantes] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ESTUDIANTES/DESKTOP-AISCPRQ:estudiantes:8081 - registration status: 204
+2026-05-08T19:05:30.049-05:00  INFO 24632 --- [estudiantes] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-08T19:05:30.121-05:00  INFO 24632 --- [estudiantes] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-05-08T19:05:30.149-05:00  INFO 24632 --- [estudiantes] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-08T19:05:30.182-05:00  INFO 24632 --- [estudiantes] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-05-08T19:05:30.200-05:00  INFO 24632 --- [estudiantes] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-05-08T19:05:30.215-05:00  INFO 24632 --- [estudiantes] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2026-05-08T19:05:33.236-05:00  INFO 24632 --- [estudiantes] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2026-05-08T19:05:33.316-05:00  INFO 24632 --- [estudiantes] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ESTUDIANTES/DESKTOP-AISCPRQ:estudiantes:8081 - deregister  status: 200
+2026-05-08T19:05:33.316-05:00  INFO 24632 --- [estudiantes] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient

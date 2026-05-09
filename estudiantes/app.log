@@ -1,0 +1,223 @@
+﻿Starting a Gradle Daemon, 4 busy and 2 incompatible Daemons could not be reused, use --status for details
+> Task :compileJava UP-TO-DATE
+> Task :processResources UP-TO-DATE
+> Task :classes UP-TO-DATE
+> Task :resolveMainClassName UP-TO-DATE
+
+> Task :bootRun
+./gradlew.bat : 18:25:20,471 |-ERROR in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - openFile(app.log,true) 
+call failed. java.io.FileNotFoundException: app.log (El proceso no tiene acceso al archivo porque estß siendo 
+utilizado por otro proceso)
+En línea: 1 Carácter: 85
++ ...  NUBE\microservicios\estudiantes'; ./gradlew.bat bootRun 2>&1 | Out-F ...
++                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (18:25:20,471 |-...r otro proceso):String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+	at java.io.FileNotFoundException: app.log (El proceso no tiene acceso al archivo porque estß siendo utilizado por 
+otro proceso)
+	at 	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at 	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+	at 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+	at 	at ch.qos.logback.core.recovery.ResilientFileOutputStream.<init>(ResilientFileOutputStream.java:26)
+	at 	at ch.qos.logback.core.FileAppender.openFile(FileAppender.java:165)
+	at 	at ch.qos.logback.core.FileAppender.start(FileAppender.java:120)
+	at 	at ch.qos.logback.core.rolling.RollingFileAppender.start(RollingFileAppender.java:104)
+	at 	at org.springframework.boot.logging.logback.LogbackConfigurator.start(LogbackConfigurator.java:112)
+	at 	at org.springframework.boot.logging.logback.LogbackConfigurator.appender(LogbackConfigurator.java:75)
+	at 	at 
+org.springframework.boot.logging.logback.DefaultLogbackConfiguration.fileAppender(DefaultLogbackConfiguration.java:153)
+	at 	at org.springframework.boot.logging.logback.DefaultLogbackConfiguration.apply(DefaultLogbackConfiguration.java:91)
+	at 	at 
+org.springframework.boot.logging.logback.LogbackLoggingSystem.lambda$loadDefaults$0(LogbackLoggingSystem.java:246)
+	at 	at 
+org.springframework.boot.logging.logback.LogbackLoggingSystem.withLoggingSuppressed(LogbackLoggingSystem.java:491)
+	at 	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadDefaults(LogbackLoggingSystem.java:234)
+	at 	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:89)
+	at 	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:65)
+	at 	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:197)
+	at 	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener
+.java:337)
+	at 	at 
+org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:302)
+	at 	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(Loggi
+ngApplicationListener.java:248)
+	at 	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListen
+er.java:225)
+	at 	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMult
+icaster.java:180)
+	at 	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMultic
+aster.java:173)
+	at 	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMultic
+aster.java:151)
+	at 	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMultic
+aster.java:133)
+	at 	at org.springframework.boot.context.event.EventPublishingRunListener.multicastInitialEvent(EventPublishingRunListe
+ner.java:137)
+	at 	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListene
+r.java:82)
+	at 	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$0(SpringApplicationRunListene
+rs.java:66)
+	at 	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at 	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:123)
+	at 	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:117)
+	at 	at 
+org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:65)
+	at 	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:356)
+	at 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
+	at 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at 	at com.microservicio.estudiantes.EstudiantesApplication.main(EstudiantesApplication.java:10)
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.0.6)
+
+2026-05-08T18:25:20.680-05:00  INFO 18736 --- [estudiantes] [           main] c.m.estudiantes.EstudiantesApplication   : Starting EstudiantesApplication using Java 17.0.9 with PID 18736 (C:\Users\Usuario\Documents\PROGRAMACIËN EN LA NUBE\microservicios\estudiantes\build\classes\java\main started by Usuario in C:\Users\Usuario\Documents\PROGRAMACIËN EN LA NUBE\microservicios\estudiantes)
+18:25:20,685 |-WARN in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - Attempted to append to non started 
+appender [FILE].
+2026-05-08T18:25:20.686-05:00 DEBUG 18736 --- [estudiantes] [           main] c.m.estudiantes.EstudiantesApplication   : Running with Spring Boot v4.0.6, Spring v7.0.7
+18:25:20,686 |-WARN in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - Attempted to append to non started 
+appender [FILE].
+2026-05-08T18:25:20.687-05:00  INFO 18736 --- [estudiantes] [           main] c.m.estudiantes.EstudiantesApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-05-08T18:25:23.006-05:00  INFO 18736 --- [estudiantes] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-08T18:25:23.390-05:00  INFO 18736 --- [estudiantes] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 358 ms. Found 1 JPA repository interface.
+2026-05-08T18:25:23.790-05:00  INFO 18736 --- [estudiantes] [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=f1e5b18c-7394-3265-990f-bebe810ff6f4
+2026-05-08T18:25:24.461-05:00  INFO 18736 --- [estudiantes] [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-05-08T18:25:24.500-05:00  INFO 18736 --- [estudiantes] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-08T18:25:24.501-05:00  INFO 18736 --- [estudiantes] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-05-08T18:25:24.806-05:00  INFO 18736 --- [estudiantes] [           main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 3989 ms
+2026-05-08T18:25:25.247-05:00  INFO 18736 --- [estudiantes] [           main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-05-08T18:25:25.385-05:00  INFO 18736 --- [estudiantes] [           main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-05-08T18:25:26.534-05:00  INFO 18736 --- [estudiantes] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-08T18:25:26.670-05:00  INFO 18736 --- [estudiantes] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-05-08T18:25:27.016-05:00  INFO 18736 --- [estudiantes] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1c459c28
+2026-05-08T18:25:27.026-05:00  INFO 18736 --- [estudiantes] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-05-08T18:25:27.208-05:00  INFO 18736 --- [estudiantes] [           main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/estudiantes_db]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 14.2
+	Default catalog/schema: estudiantes_db/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-08T18:25:29.547-05:00  INFO 18736 --- [estudiantes] [           main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-08T18:25:29.679-05:00  INFO 18736 --- [estudiantes] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-08T18:25:29.917-05:00  INFO 18736 --- [estudiantes] [           main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-05-08T18:25:30.170-05:00  WARN 18736 --- [estudiantes] [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-08T18:25:30.615-05:00 DEBUG 18736 --- [estudiantes] [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : 8 mappings in 'requestMappingHandlerMapping'
+2026-05-08T18:25:30.666-05:00 DEBUG 18736 --- [estudiantes] [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2026-05-08T18:25:30.703-05:00 DEBUG 18736 --- [estudiantes] [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 2 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-05-08T18:25:30.850-05:00 DEBUG 18736 --- [estudiantes] [           main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-05-08T18:25:31.339-05:00  INFO 18736 --- [estudiantes] [           main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestClient.
+2026-05-08T18:25:31.398-05:00  WARN 18736 --- [estudiantes] [           main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2026-05-08T18:25:31.435-05:00  INFO 18736 --- [estudiantes] [           main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2026-05-08T18:25:31.471-05:00  INFO 18736 --- [estudiantes] [           main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2026-05-08T18:25:31.477-05:00  INFO 18736 --- [estudiantes] [           main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-05-08T18:25:31.490-05:00  INFO 18736 --- [estudiantes] [           main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2026-05-08T18:25:31.490-05:00  INFO 18736 --- [estudiantes] [           main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2026-05-08T18:25:31.490-05:00  INFO 18736 --- [estudiantes] [           main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2026-05-08T18:25:31.491-05:00  INFO 18736 --- [estudiantes] [           main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2026-05-08T18:25:31.491-05:00  INFO 18736 --- [estudiantes] [           main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2026-05-08T18:25:31.491-05:00  INFO 18736 --- [estudiantes] [           main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2026-05-08T18:25:31.491-05:00  INFO 18736 --- [estudiantes] [           main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2026-05-08T18:25:32.271-05:00 DEBUG 18736 --- [estudiantes] [           main] o.s.web.client.DefaultRestClient         : Reading to [com.netflix.discovery.shared.Applications]
+2026-05-08T18:25:32.316-05:00  INFO 18736 --- [estudiantes] [           main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2026-05-08T18:25:32.320-05:00  INFO 18736 --- [estudiantes] [           main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2026-05-08T18:25:32.324-05:00  INFO 18736 --- [estudiantes] [           main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2026-05-08T18:25:32.329-05:00  INFO 18736 --- [estudiantes] [           main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1778282732326 with initial instances count: 1
+2026-05-08T18:25:32.333-05:00  INFO 18736 --- [estudiantes] [           main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application ESTUDIANTES with eureka with status UP
+2026-05-08T18:25:32.335-05:00  INFO 18736 --- [estudiantes] [           main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1778282732335, current=UP, previous=STARTING]
+2026-05-08T18:25:32.338-05:00  INFO 18736 --- [estudiantes] [foReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ESTUDIANTES/DESKTOP-AISCPRQ:estudiantes:8081: registering service...
+2026-05-08T18:25:32.367-05:00 DEBUG 18736 --- [estudiantes] [foReplicator-%d] o.s.web.client.DefaultRestClient         : Writing [InstanceInfo [instanceId = DESKTOP-AISCPRQ:estudiantes:8081, appName = ESTUDIANTES, hostName = DESKTOP-AISCPRQ, status = UP, ipAddr = 192.168.18.9, port = 8081, securePort = 443, dataCenterInfo = com.netflix.appinfo.MyDataCenterInfo@1df8c7f4] as "application/json" with org.springframework.http.converter.json.MappingJackson2HttpMessageConverter
+2026-05-08T18:25:32.376-05:00  INFO 18736 --- [estudiantes] [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/'
+2026-05-08T18:25:32.377-05:00  INFO 18736 --- [estudiantes] [           main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8081
+2026-05-08T18:25:32.400-05:00  INFO 18736 --- [estudiantes] [foReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ESTUDIANTES/DESKTOP-AISCPRQ:estudiantes:8081 - registration status: 204
+2026-05-08T18:25:32.484-05:00  INFO 18736 --- [estudiantes] [           main] c.m.estudiantes.EstudiantesApplication   : Started EstudiantesApplication in 12.962 seconds (process running for 14.082)
+2026-05-08T18:25:33.701-05:00  INFO 18736 --- [estudiantes] [nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-08T18:25:33.702-05:00  INFO 18736 --- [estudiantes] [nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-05-08T18:25:33.704-05:00 DEBUG 18736 --- [estudiantes] [nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2026-05-08T18:25:33.707-05:00 DEBUG 18736 --- [estudiantes] [nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2026-05-08T18:25:33.715-05:00 DEBUG 18736 --- [estudiantes] [nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@1ab780fd
+2026-05-08T18:25:33.732-05:00 DEBUG 18736 --- [estudiantes] [nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@1267adbe
+2026-05-08T18:25:33.734-05:00 DEBUG 18736 --- [estudiantes] [nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2026-05-08T18:25:33.735-05:00  INFO 18736 --- [estudiantes] [nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 31 ms
+2026-05-08T18:25:33.759-05:00 DEBUG 18736 --- [estudiantes] [nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/api/estudiantes", parameters={}
+2026-05-08T18:25:33.773-05:00 DEBUG 18736 --- [estudiantes] [nio-8081-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.microservicio.estudiantes.EstudianteController#getAllEstudiantes(Pageable)
+Hibernate: select e1_0.id,e1_0.carrera,e1_0.edad,e1_0.email,e1_0.nombre from estudiantes e1_0 order by e1_0.nombre offset ? rows fetch first ? rows only
+2026-05-08T18:25:34.293-05:00 DEBUG 18736 --- [estudiantes] [nio-8081-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2026-05-08T18:25:34.296-05:00 DEBUG 18736 --- [estudiantes] [nio-8081-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Page 1 of 1 containing com.microservicio.estudiantes.dto.EstudianteDTO instances]
+2026-05-08T18:25:34.366-05:00  WARN 18736 --- [estudiantes] [nio-8081-exec-2] ration$PageModule$WarningLoggingModifier : Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2026-05-08T18:25:34.391-05:00 DEBUG 18736 --- [estudiantes] [nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-05-08T18:25:41.399-05:00 DEBUG 18736 --- [estudiantes] [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : POST "/api/estudiantes", parameters={}
+2026-05-08T18:25:41.400-05:00 DEBUG 18736 --- [estudiantes] [nio-8081-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.microservicio.estudiantes.EstudianteController#createEstudiante(EstudianteRequestDTO)
+2026-05-08T18:25:41.473-05:00 DEBUG 18736 --- [estudiantes] [nio-8081-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [EstudianteRequestDTO(nombre=Juan Perez, email=juan@test.com, edad=25, carrera=Ingenieria)]
+Hibernate: insert into estudiantes (carrera,edad,email,nombre) values (?,?,?,?)
+2026-05-08T18:25:41.709-05:00 DEBUG 18736 --- [estudiantes] [nio-8081-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2026-05-08T18:25:41.710-05:00 DEBUG 18736 --- [estudiantes] [nio-8081-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [EstudianteDTO(id=12, nombre=Juan Perez, email=juan@test.com, edad=25, carrera=Ingenieria)]
+2026-05-08T18:25:41.711-05:00 DEBUG 18736 --- [estudiantes] [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 201 CREATED
+2026-05-08T18:25:51.131-05:00 DEBUG 18736 --- [estudiantes] [nio-8081-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/api/estudiantes/12", parameters={}
+2026-05-08T18:25:51.131-05:00 DEBUG 18736 --- [estudiantes] [nio-8081-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.microservicio.estudiantes.EstudianteController#getEstudianteById(Long)
+Hibernate: select e1_0.id,e1_0.carrera,e1_0.edad,e1_0.email,e1_0.nombre from estudiantes e1_0 where e1_0.id=?
+2026-05-08T18:25:51.147-05:00 DEBUG 18736 --- [estudiantes] [nio-8081-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2026-05-08T18:25:51.147-05:00 DEBUG 18736 --- [estudiantes] [nio-8081-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [EstudianteDTO(id=12, nombre=Juan Perez, email=juan@test.com, edad=25, carrera=Ingenieria)]
+2026-05-08T18:25:51.148-05:00 DEBUG 18736 --- [estudiantes] [nio-8081-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-05-08T18:25:51.177-05:00 DEBUG 18736 --- [estudiantes] [nio-8081-exec-6] o.s.web.servlet.DispatcherServlet        : PUT "/api/estudiantes/12", parameters={}
+2026-05-08T18:25:51.179-05:00 DEBUG 18736 --- [estudiantes] [nio-8081-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.microservicio.estudiantes.EstudianteController#updateEstudiante(Long, EstudianteRequestDTO)
+2026-05-08T18:25:51.180-05:00 DEBUG 18736 --- [estudiantes] [nio-8081-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [EstudianteRequestDTO(nombre=Juan Updated, email=juan2@test.com, edad=26, carrera=Medicina)]
+Hibernate: select e1_0.id,e1_0.carrera,e1_0.edad,e1_0.email,e1_0.nombre from estudiantes e1_0 where e1_0.id=?
+Hibernate: update estudiantes set carrera=?,edad=?,email=?,nombre=? where id=?
+2026-05-08T18:25:51.201-05:00 DEBUG 18736 --- [estudiantes] [nio-8081-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2026-05-08T18:25:51.201-05:00 DEBUG 18736 --- [estudiantes] [nio-8081-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [EstudianteDTO(id=12, nombre=Juan Updated, email=juan2@test.com, edad=26, carrera=Medicina)]
+2026-05-08T18:25:51.202-05:00 DEBUG 18736 --- [estudiantes] [nio-8081-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-05-08T18:25:51.207-05:00 DEBUG 18736 --- [estudiantes] [nio-8081-exec-7] o.s.web.servlet.DispatcherServlet        : PATCH "/api/estudiantes/12", parameters={}
+2026-05-08T18:25:51.208-05:00 DEBUG 18736 --- [estudiantes] [nio-8081-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.microservicio.estudiantes.EstudianteController#patchEstudiante(Long, EstudiantePatchDTO)
+2026-05-08T18:25:51.216-05:00 DEBUG 18736 --- [estudiantes] [nio-8081-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [EstudiantePatchDTO(nombre=null, email=null, edad=30, carrera=null)]
+Hibernate: select e1_0.id,e1_0.carrera,e1_0.edad,e1_0.email,e1_0.nombre from estudiantes e1_0 where e1_0.id=?
+Hibernate: update estudiantes set carrera=?,edad=?,email=?,nombre=? where id=?
+2026-05-08T18:25:51.222-05:00 DEBUG 18736 --- [estudiantes] [nio-8081-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2026-05-08T18:25:51.223-05:00 DEBUG 18736 --- [estudiantes] [nio-8081-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [EstudianteDTO(id=12, nombre=Juan Updated, email=juan2@test.com, edad=30, carrera=Medicina)]
+2026-05-08T18:25:51.224-05:00 DEBUG 18736 --- [estudiantes] [nio-8081-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-05-08T18:26:02.352-05:00 DEBUG 18736 --- [estudiantes] [reshExecutor-%d] o.s.web.client.DefaultRestClient         : Reading to [com.netflix.discovery.shared.Applications]
+2026-05-08T18:26:12.984-05:00 DEBUG 18736 --- [estudiantes] [nio-8081-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/api/estudiantes/9999", parameters={}
+2026-05-08T18:26:12.985-05:00 DEBUG 18736 --- [estudiantes] [nio-8081-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.microservicio.estudiantes.EstudianteController#getEstudianteById(Long)
+Hibernate: select e1_0.id,e1_0.carrera,e1_0.edad,e1_0.email,e1_0.nombre from estudiantes e1_0 where e1_0.id=?
+2026-05-08T18:26:12.989-05:00 DEBUG 18736 --- [estudiantes] [nio-8081-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2026-05-08T18:26:12.990-05:00 DEBUG 18736 --- [estudiantes] [nio-8081-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Nothing to write: null body
+2026-05-08T18:26:12.991-05:00 DEBUG 18736 --- [estudiantes] [nio-8081-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2026-05-08T18:26:13.000-05:00 DEBUG 18736 --- [estudiantes] [io-8081-exec-10] o.s.web.servlet.DispatcherServlet        : DELETE "/api/estudiantes/9999", parameters={}
+2026-05-08T18:26:13.001-05:00 DEBUG 18736 --- [estudiantes] [io-8081-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.microservicio.estudiantes.EstudianteController#deleteEstudiante(Long)
+Hibernate: select e1_0.id,e1_0.carrera,e1_0.edad,e1_0.email,e1_0.nombre from estudiantes e1_0 where e1_0.id=?
+2026-05-08T18:26:13.004-05:00 DEBUG 18736 --- [estudiantes] [io-8081-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2026-05-08T18:26:13.005-05:00 DEBUG 18736 --- [estudiantes] [io-8081-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Nothing to write: null body
+2026-05-08T18:26:13.006-05:00 DEBUG 18736 --- [estudiantes] [io-8081-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+
+> Task :bootRun FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':bootRun'.
+> Process 'command 'C:\Program Files\Java\jdk-17\bin\java.exe'' finished with non-zero exit value -1 (NTSTATUS 
+0xFFFFFFFF)
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights from a Build Scan (powered by Develocity).
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 1m 29s
+4 actionable tasks: 1 executed, 3 up-to-date
