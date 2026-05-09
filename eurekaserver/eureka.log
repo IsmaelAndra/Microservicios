@@ -83,3 +83,40 @@
 2026-05-08T18:41:36.061-05:00  INFO 13360 --- [eurekaserver] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
 2026-05-08T18:42:36.061-05:00  INFO 13360 --- [eurekaserver] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
 2026-05-08T18:43:36.062-05:00  INFO 13360 --- [eurekaserver] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2026-05-08T18:44:36.062-05:00  INFO 13360 --- [eurekaserver] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2026-05-08T18:45:36.089-05:00  INFO 13360 --- [eurekaserver] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 27ms
+2026-05-08T18:46:36.089-05:00  INFO 13360 --- [eurekaserver] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2026-05-08T18:47:36.090-05:00  INFO 13360 --- [eurekaserver] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2026-05-08T18:48:36.090-05:00  INFO 13360 --- [eurekaserver] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2026-05-08T18:49:36.090-05:00  INFO 13360 --- [eurekaserver] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2026-05-08T18:50:36.092-05:00  INFO 13360 --- [eurekaserver] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2026-05-08T18:51:36.092-05:00  INFO 13360 --- [eurekaserver] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2026-05-08T18:52:36.093-05:00  INFO 13360 --- [eurekaserver] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2026-05-08T18:53:36.102-05:00  INFO 13360 --- [eurekaserver] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 9ms
+2026-05-08T18:54:35.754-05:00  INFO 13360 --- [eurekaserver] [hresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 5
+2026-05-08T18:54:36.102-05:00  INFO 13360 --- [eurekaserver] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2026-05-08T18:55:36.103-05:00  INFO 13360 --- [eurekaserver] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2026-05-08T18:56:36.110-05:00  INFO 13360 --- [eurekaserver] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 7ms
+2026-05-08T18:57:36.111-05:00  INFO 13360 --- [eurekaserver] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2026-05-08T18:58:36.118-05:00  INFO 13360 --- [eurekaserver] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 6ms
+2026-05-08T18:59:36.126-05:00  INFO 13360 --- [eurekaserver] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 8ms
+2026-05-08T19:00:36.141-05:00  INFO 13360 --- [eurekaserver] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 15ms
+2026-05-08T19:01:36.148-05:00  INFO 13360 --- [eurekaserver] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 7ms
+2026-05-08T19:02:36.196-05:00  INFO 13360 --- [eurekaserver] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 47ms
+2026-05-08T19:03:36.209-05:00  INFO 13360 --- [eurekaserver] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 12ms
+2026-05-08T19:04:36.211-05:00  INFO 13360 --- [eurekaserver] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2026-05-08T19:05:30.032-05:00  INFO 13360 --- [eurekaserver] [nio-8761-exec-5] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ESTUDIANTES/DESKTOP-AISCPRQ:estudiantes:8081 with status DOWN (replication=false)
+2026-05-08T19:05:30.554-05:00  INFO 13360 --- [eurekaserver] [nio-8761-exec-6] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ESTUDIANTES/DESKTOP-AISCPRQ:estudiantes:8081 with status DOWN (replication=true)
+2026-05-08T19:05:32.916-05:00  INFO 13360 --- [eurekaserver] [nio-8761-exec-8] c.n.e.registry.AbstractInstanceRegistry  : Registered instance COURSES/DESKTOP-AISCPRQ:courses with status DOWN (replication=false)
+2026-05-08T19:05:33.266-05:00  INFO 13360 --- [eurekaserver] [nio-8761-exec-7] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance ESTUDIANTES/DESKTOP-AISCPRQ:estudiantes:8081 (replication=false)
+2026-05-08T19:05:33.449-05:00  INFO 13360 --- [eurekaserver] [io-8761-exec-10] c.n.e.registry.AbstractInstanceRegistry  : Registered instance COURSES/DESKTOP-AISCPRQ:courses with status DOWN (replication=true)
+2026-05-08T19:05:33.449-05:00  WARN 13360 --- [eurekaserver] [io-8761-exec-10] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: cancel failed because Lease is not registered for: ESTUDIANTES/DESKTOP-AISCPRQ:estudiantes:8081
+2026-05-08T19:05:33.449-05:00  INFO 13360 --- [eurekaserver] [io-8761-exec-10] c.n.eureka.resources.InstanceResource    : Not Found (Cancel): ESTUDIANTES - DESKTOP-AISCPRQ:estudiantes:8081
+2026-05-08T19:05:33.449-05:00  WARN 13360 --- [eurekaserver] [et_localhost-14] c.n.eureka.cluster.ReplicationTask       : The replication of task ESTUDIANTES/DESKTOP-AISCPRQ:estudiantes:8081:Cancel@localhost failed with response code 404
+2026-05-08T19:05:33.449-05:00  WARN 13360 --- [eurekaserver] [et_localhost-14] c.netflix.eureka.cluster.PeerEurekaNode  : ESTUDIANTES/DESKTOP-AISCPRQ:estudiantes:8081:Cancel@localhost: missing entry.
+2026-05-08T19:05:36.200-05:00  INFO 13360 --- [eurekaserver] [nio-8761-exec-9] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance COURSES/DESKTOP-AISCPRQ:courses (replication=false)
+2026-05-08T19:05:36.212-05:00  INFO 13360 --- [eurekaserver] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2026-05-08T19:05:36.706-05:00  WARN 13360 --- [eurekaserver] [nio-8761-exec-5] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: cancel failed because Lease is not registered for: COURSES/DESKTOP-AISCPRQ:courses
+2026-05-08T19:05:36.706-05:00  INFO 13360 --- [eurekaserver] [nio-8761-exec-5] c.n.eureka.resources.InstanceResource    : Not Found (Cancel): COURSES - DESKTOP-AISCPRQ:courses
+2026-05-08T19:05:36.706-05:00  WARN 13360 --- [eurekaserver] [get_localhost-8] c.n.eureka.cluster.ReplicationTask       : The replication of task COURSES/DESKTOP-AISCPRQ:courses:Cancel@localhost failed with response code 404
+2026-05-08T19:05:36.706-05:00  WARN 13360 --- [eurekaserver] [get_localhost-8] c.netflix.eureka.cluster.PeerEurekaNode  : COURSES/DESKTOP-AISCPRQ:courses:Cancel@localhost: missing entry.

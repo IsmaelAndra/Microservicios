@@ -13,6 +13,9 @@ Tres servicios Spring Boot independientes, cada uno con su propio Gradle wrapper
 1. `eurekaserver/` primero (puerto 8761)
 2. `courses/` y `estudiantes/` después (se registran en Eureka vía dependencia en classpath, sin `@EnableEurekaClient`)
 
+## Arquitectura del proyecto
+- Arquitectura en Capas (Controller, Repository, Service, Entity)
+
 ## Comandos (ejecutar dentro de cada directorio)
 ```
 ./gradlew.bat build
